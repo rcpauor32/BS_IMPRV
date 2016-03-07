@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
+
 int main() {
 	int msize;
 
@@ -158,6 +159,8 @@ int main() {
 
 
 	free(map);
+	free(hidd_map);
+	free(hit_map);
 
 	getchar();
 	return 0;
